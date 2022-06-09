@@ -9,6 +9,6 @@ app.use(express.json())
 app.use(routes)
 
 // Starting server on port:3333
-app.listen(3333, () => {
+app.listen(process.env.PORT || 3333, () => {
     console.log("\nHTTP Server running on port http://localhost:3333/")
 })
