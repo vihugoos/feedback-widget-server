@@ -60,17 +60,17 @@ The feedback widget server to save the feedbacks in the database and send an ema
     <a href="https://www.typescriptlang.org/docs/"> 
       <img align="center" alt="Icon-TypeScript" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"> 
     </a> &nbsp;
+    <!-- Icon Prisma -->
+    <a href="https://www.prisma.io/docs/"> 
+      <img align="center" alt="Icon-Prisma" height="35" src="https://user-images.githubusercontent.com/44311634/178335052-08bb4b29-c4da-4100-ae71-8b65cf6cd581.png"> 
+    </a> &nbsp;
     <!-- Icon Express --> 
     <a href="https://expressjs.com/en/guide/routing.html"> 
-      <img align="center" alt="Icon-Express" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"> 
+      <img align="center" alt="Icon-Express" height="35" src="https://user-images.githubusercontent.com/44311634/178337147-61b1e696-b4ef-4f78-8151-c3fb2597050a.png"> 
     </a> &nbsp;
-    <!-- Icon React -->
-    <a href="https://reactjs.org/docs/getting-started.html"> 
-      <img align="center" alt="Icon-React" height="35" src="https://user-images.githubusercontent.com/44311634/178088844-02a9c9ba-28b9-4ef6-87f0-d12d52ceaf0b.png"> 
-    </a> &nbsp;
-    <!-- Icon Axios -->
-    <a href="https://axios-http.com/docs/intro"> 
-      <img align="center" alt="Icon-Axios" height="55" src="https://user-images.githubusercontent.com/44311634/178089407-0176462e-7e60-4f4f-9ad8-5429a22b2c5c.png"> 
+    <!-- Icon Nodemailer -->
+    <a href="https://nodemailer.com/about/"> 
+      <img align="center" alt="Icon-Nodemailer" height="35" src="https://user-images.githubusercontent.com/44311634/178336455-62647b4d-4187-443e-a973-452774dbcdba.png"> 
     </a>
 </div>
 
