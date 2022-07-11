@@ -46,7 +46,7 @@
 ## About The Project
 
 <img src="" align="center" height="500" alt="Project Home Page">
-The feedback widget server to save the feedbacks in the database and send an email to the administrator notifying them of the new feedback made. 
+The feedback widget server to save the feedbacks in the database and send an email to the administrator notifying them of the new feedback. 
 
 
 ### Built With 
