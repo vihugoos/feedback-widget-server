@@ -74,7 +74,7 @@ The feedback widget server to save the feedbacks in the database and send an ema
     </a> &nbsp;
     <!-- Icon PostgreSQL --> 
     <a href="https://www.postgresql.org/"> 
-      <img align="center" alt="Icon-PostgreSQL" height="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"> 
+      <img align="center" alt="Icon-PostgreSQL" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"> 
     </a> 
 </div>
 
