@@ -72,9 +72,13 @@ The feedback widget server to save the feedbacks in the database and send an ema
     <a href="https://nodemailer.com/about/"> 
       <img align="center" alt="Icon-Nodemailer" height="35" src="https://user-images.githubusercontent.com/44311634/178336455-62647b4d-4187-443e-a973-452774dbcdba.png"> 
     </a> &nbsp;
+    <!-- Icon Jest -->
+    <a href="https://jestjs.io/"> 
+      <img align="center" alt="Icon-Jest" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"> 
+    </a> &nbsp;
     <!-- Icon PostgreSQL --> 
     <a href="https://www.postgresql.org/"> 
-      <img align="center" alt="Icon-PostgreSQL" height="36" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"> 
+      <img align="center" alt="Icon-PostgreSQL" height="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"> 
     </a> 
 </div>
 
