@@ -8,8 +8,8 @@
   </h2>
   
   <p align="center">
-    The feedback widget server to save feedbacks and send emails, developed with Node.js and Prisma.<br/>
-    Explore <a href="https://nodejs.org/en/docs/">Node.js</a> or <a href="https://www.prisma.io/docs/">Prisma</a> docs &#187; <br/> <br/>
+    The feedback widget server to save feedbacks and send emails, developed with Node.js <br/>
+    Explore <a href="https://nodejs.org/en/docs/">Node.js</a> docs &#187; <br/> <br/>
     <a href="https://feedback-widget-server-production-fc59.up.railway.app/"> Deployment URL </a> &nbsp;•&nbsp;
     <a href="https://github.com/vihugoos/feedback-widget-server/issues"> Report Bug </a> &nbsp;•&nbsp;
     <a href="https://github.com/vihugoos/feedback-widget-server/issues"> Request Feature </a>
