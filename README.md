@@ -4,14 +4,15 @@
 <div align="center">
 
   <h2 align="center"> 
-    Feedback Widget - Mobile App Version 
+    Feedback Widget - Server  
   </h2>
   
   <p align="center">
-    A feedback widget to capture feedback from your app's users, developed with Expo and React Native. <br/>
-    Explore <a href="https://docs.expo.dev/">Expo</a> or <a href="https://reactnative.dev/docs/getting-started">React Native</a> docs &#187; <br/> <br/>
-    <a href="https://github.com/vihugoos/feedback-widget-mobile/issues"> Report Bug </a> &nbsp;•&nbsp;
-    <a href="https://github.com/vihugoos/feedback-widget-mobile/issues"> Request Feature </a>
+    The feedback widget server to save feedbacks and send emails, developed with Node.js and Prisma.<br/>
+    Explore <a href="https://nodejs.org/en/docs/">Node.js</a> or <a href="https://www.prisma.io/docs/">Prisma</a> docs &#187; <br/> <br/>
+    <a href="https://feedback-widget-server-production-fc59.up.railway.app/"> Deployment URL </a> &nbsp;•&nbsp;
+    <a href="https://github.com/vihugoos/feedback-widget-server/issues"> Report Bug </a> &nbsp;•&nbsp;
+    <a href="https://github.com/vihugoos/feedback-widget-server/issues"> Request Feature </a>
   </p>
 </div>
 
@@ -44,11 +45,9 @@
 <!---- THE PROJECT ---->
 ## About The Project
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/44311634/178160642-be38b691-954f-4e5c-a0fa-16acc0c4700f.gif" align="center" height="500" alt="Project Home Page">
-  <br/> <br/> 
-  <p> A widget where you can send feedback to the website administrator about bugs, ideas, etc. </p>
-</div>
+<img src="" align="center" height="500" alt="Project Home Page">
+The feedback widget server to save the feedbacks in the database and send an email to the administrator notifying them of the new feedback made. 
+
 
 ### Built With 
 
@@ -61,9 +60,9 @@
     <a href="https://www.typescriptlang.org/docs/"> 
       <img align="center" alt="Icon-TypeScript" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"> 
     </a> &nbsp;
-    <!-- Icon Expo --> 
-    <a href="https://docs.expo.dev/"> 
-      <img align="center" alt="Icon-Expo" height="35" src="https://user-images.githubusercontent.com/44311634/178088819-374d1241-cef7-4f68-b400-4a33ccec45e2.png"> 
+    <!-- Icon Express --> 
+    <a href="https://expressjs.com/en/guide/routing.html"> 
+      <img align="center" alt="Icon-Express" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"> 
     </a> &nbsp;
     <!-- Icon React -->
     <a href="https://reactjs.org/docs/getting-started.html"> 
