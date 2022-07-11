@@ -71,7 +71,11 @@ The feedback widget server to save the feedbacks in the database and send an ema
     <!-- Icon Nodemailer -->
     <a href="https://nodemailer.com/about/"> 
       <img align="center" alt="Icon-Nodemailer" height="35" src="https://user-images.githubusercontent.com/44311634/178336455-62647b4d-4187-443e-a973-452774dbcdba.png"> 
-    </a>
+    </a> &nbsp;
+    <!-- Icon PostgreSQL --> 
+    <a href="https://www.postgresql.org/"> 
+      <img align="center" alt="Icon-PostgreSQL" height="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"> 
+    </a> 
 </div>
 
 <br/>
@@ -81,39 +85,49 @@ The feedback widget server to save the feedbacks in the database and send an ema
 <!---- GETTING STARTED ----> 
 ## Getting Started
 
-To get started, you need to have <strong>Node.js 16+</strong> installed on your machine, for more information visit <a href="https://nodejs.org/en/download/"> Node.js Downloads</a>. You will also need to have <strong>Expo</strong> installed on your mobile phone, for more information visit <a href="https://play.google.com/store/apps/details?id=host.exp.exponent">Expo to Google Play</a> or <a href="https://apps.apple.com/app/expo-go/id982107779">Expo to App Store</a>. 
+To get started, you need to have <strong>Node.js 16+</strong> installed on your machine, for more information visit <a href="https://nodejs.org/en/download/"> Node.js Downloads</a>. You will also need to have <strong>PostgreSQL</strong> installed, for more information visit <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads"> PostgreSQL Downloads</a>. 
+
+<strong>WARNING</strong>: Add PostgreSQL executable path to user <strong>environment variables</strong>, to be able to use the `psql` command in the terminal, or create a database called `feedback-widget` via graphical user interface using the pgAdmin, it's up to you what you think is best. <strong>Note:</strong> This installation guide is based on Windows systems. 
 
 
 ### Prerequisites 
 
-First of all, we need to ensure that the <strong>server is running</strong>, to do so, visit my <a href="https://github.com/vihugoos/chatbox-server">@chatbox-server</a> repository and follow the install and run guide. Note: This installation guide is based on Windows systems. 
+First of all, we need to ensure that the database server is running, to do so, run the following commands in case you haven't created the database manually via pgAdmin, as mentioned above, if you have already created the database `feedback-widget`, just run the first command below. 
 
+1. Open cmd terminal as <strong>administrator</strong> (<i>looking at psql version, in this case 14</i>)
+   ```cmd
+   net start postgresql-x64-14
+   ```
+2. Connect with psql 
+   ```cmd
+   psql -U postgres
+   ```
+3. Create a database 
+   ```cmd
+   CREATE DATABASE feedback-widget;
+   ```
+4. Quit psql 
+   ```cmd
+   \q
+   ```
 
 ### Installation 
 
 1. Clone the repo 
    ```bash
-   git clone https://github.com/vihugoos/feedback-widget-mobile-app.git
+   git clone https://github.com/vihugoos/feedback-widget-server.git
    ```
-2. Open cmd terminal and install expo cli globally 
-   ```cmd
-   npm install -g expo-cli
-   ```
-3. Inside the project root directory install all project dependencies 
+2. Inside the project root directory install all project dependencies 
    ```cmd
    npm install
    ```
-4. Capture your machine's `IPv4 Address`
+3. Create an `.env` file with the database connection configuration (don't forget to change the password) 
    ```cmd
-   ipconfig
-   ```
-   <img align="center" alt="print-ipconfig" src="https://user-images.githubusercontent.com/44311634/178123996-7183d436-2bd2-4f5e-b8ac-2ecd8f3d0737.jpg">
-   <br/> <br/> 
-5. Change the baseURL in `.\src\libs\api.ts`, with your IP, keeping the door `:3333` 
-   ```ts
-    export const api = axios.create({
-      baseURL: 'http://192.168.1.9:3333'
-    })
+   echo "DATABASE_URL='postgresql://postgres:yourPassword@localhost:5432/feedback-widget?schema=public'" > .env 
+   ``` 
+4. Run the migrate 
+   ```cmd
+   npx prisma migrate dev
    ```
  
 
@@ -122,23 +136,16 @@ First of all, we need to ensure that the <strong>server is running</strong>, to 
 
 With the installation complete, we can start the project.
 
-1. Starting the project 
+* Starting the project 
    ```bash
-   expo start --clear 
+   npm run dev  
    ```
-
-
-2. Open the <strong>Expo</strong> app on your mobile and scan the <strong>QR Code</strong> displayed on the terminal and wait for the project to build. On IOS use the camera app to scan the QR Code. 
-
+   
+* To view the database feedback table in an easy and intuitive way, just use Prisma Studio
+  ```
+  npx prisma studio 
+  ```
 <br/>
-
-You can also create an account at Expo and in the terminal log in with your account, the running projects will automatically be displayed in the Expo app.
-
-* Expo login CLI
-   ```bash
-   expo signin -u yourUserName -p yourPassword 
-   ```
-<br/> 
 
 
 <!---- CONTRIBUTING ---->
