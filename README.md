@@ -104,7 +104,7 @@ First of all, we need to ensure that the database server is running, to do so, r
    ```
 3. Create a database 
    ```cmd
-   CREATE DATABASE feedback-widget;
+   CREATE DATABASE feedback_widget;
    ```
 4. Quit psql 
    ```cmd
@@ -123,7 +123,7 @@ First of all, we need to ensure that the database server is running, to do so, r
    ```
 3. Create an `.env` file with the database connection configuration (don't forget to change the password) 
    ```cmd
-   echo "DATABASE_URL='postgresql://postgres:yourPassword@localhost:5432/feedback-widget?schema=public'" > .env 
+   echo "DATABASE_URL='postgresql://postgres:yourPassword@localhost:5432/feedback_widget?schema=public'" > .env 
    ``` 
 4. Run the migrate 
    ```cmd
