@@ -92,7 +92,7 @@ To get started, you need to have <strong>Node.js 16+</strong> installed on your 
 
 ### Prerequisites 
 
-First of all, we need to ensure that the database server is running, to do so, run the following commands in case you haven't created the database manually via pgAdmin, as mentioned above, if you have already created the database `feedback-widget`, just run the first command below. 
+First of all, we need to ensure that the database server is running, to do so, run the following commands in case you haven't created the database manually via pgAdmin, as mentioned above, if you have already created the database `feedback_widget`, just run the first command below. 
 
 1. Open cmd terminal as <strong>administrator</strong> (<i>looking at psql version, in this case 14</i>)
    ```cmd
