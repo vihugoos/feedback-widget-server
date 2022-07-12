@@ -162,7 +162,7 @@ To run the jest tests and validate that everything is ok with the application, f
    npm run test
    ```
   <div align="center">
-    <img align="center" alt="print-jestTests" src="https://user-images.githubusercontent.com/44311634/178383698-fd675796-a2d0-4d86-b5ff-a014e1133ea4.jpg">
+    <img align="center" alt="print-jestTests" src="https://user-images.githubusercontent.com/44311634/178385459-1f5c3828-002b-4a11-989d-c2b0b72b5666.jpg"/>
   </div>
   <br/> <br/> 
 
