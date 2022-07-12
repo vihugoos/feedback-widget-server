@@ -46,7 +46,7 @@
 <!---- THE PROJECT ---->
 ## About The Project
 
-<img src="" align="center" height="500" alt="Project Home Page">
+<img src="https://user-images.githubusercontent.com/44311634/178409323-20a4e4e7-abce-4e4c-86b4-d864d07c17ef.png" align="center" align="center" alt="Project Home Page">
 The feedback widget server to save the feedbacks in the database and send an email to the administrator notifying them of the new feedback. 
 
 
@@ -155,7 +155,7 @@ With the installation complete, we can start the project.
 <!---- JEST TESTS ----> 
 ## Jest Tests
 
-To validate that everything is tested and OK, for more information see `.\coverage\Icov-report\index.html`
+Keep all tests always OK, for more information see `.\coverage\Icov-report\index.html`
 
 * Run tests  
    ```cmd
