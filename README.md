@@ -155,14 +155,14 @@ With the installation complete, we can start the project.
 <!---- JEST TESTS ----> 
 ## Jest Tests
 
-To run the jest tests and validate that everything is ok with the application, for more information look `.\coverage\Icov-report\index.html`
+To run the jest tests and validate that everything is OK, for more information see `.\coverage\Icov-report\index.html`
 
 * Run tests  
    ```cmd
    npm run test
    ```
   <div align="center">
-    <img align="center" alt="print-jestTests" src="https://user-images.githubusercontent.com/44311634/178385459-1f5c3828-002b-4a11-989d-c2b0b72b5666.jpg"/>
+    <img align="center" alt="print-jestTests" src="https://user-images.githubusercontent.com/44311634/178385708-c3967348-a94d-4990-b46b-8c8680394d3f.jpg"/>
   </div>
   <br/> <br/> 
 
