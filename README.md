@@ -46,7 +46,7 @@
 <!---- THE PROJECT ---->
 ## About The Project
 
-<img src="https://user-images.githubusercontent.com/44311634/178409323-20a4e4e7-abce-4e4c-86b4-d864d07c17ef.png" align="center" align="center" alt="Project Home Page">
+<img src="https://user-images.githubusercontent.com/44311634/178410178-331c81f0-a70b-4dab-9c25-e85011989caa.png" align="center" align="center" alt="Project Home Page">
 The feedback widget server to save the feedbacks in the database and send an email to the administrator notifying them of the new feedback. 
 
 
@@ -69,10 +69,10 @@ The feedback widget server to save the feedbacks in the database and send an ema
     <a href="https://expressjs.com/en/guide/routing.html"> 
       <img align="center" alt="Icon-Express" height="35" src="https://user-images.githubusercontent.com/44311634/178337147-61b1e696-b4ef-4f78-8151-c3fb2597050a.png"> 
     </a> &nbsp;
-    <!-- Icon Nodemailer -->
+    <!-- Icon Nodemailer 
     <a href="https://nodemailer.com/about/"> 
       <img align="center" alt="Icon-Nodemailer" height="35" src="https://user-images.githubusercontent.com/44311634/178336455-62647b4d-4187-443e-a973-452774dbcdba.png"> 
-    </a> &nbsp;
+    </a> &nbsp; -->
     <!-- Icon Jest -->
     <a href="https://jestjs.io/"> 
       <img align="center" alt="Icon-Jest" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"> 
