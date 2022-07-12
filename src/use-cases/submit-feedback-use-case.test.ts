@@ -22,7 +22,19 @@ describe("Submit feedback", () => {
         expect(sendMail).toHaveBeenCalled()
     })
 
-    // Test 2 
+    // Test 2
+    it('Should be able to submit a feedback without a screenshot', async () => {
+        await expect(submitFeedback.execute({
+            type: "BUG",
+            comment: "Example comment",
+            screenshot: "data:image/png;base64, null"
+        })).resolves.not.toThrow()
+
+        expect(createFeedbackSpy).toHaveBeenCalled()
+        expect(sendMail).toHaveBeenCalled()
+    })
+
+    // Test 3 
     it('Should NOT be able to submit a feedback without type', async () => {
         await expect(submitFeedback.execute({
             type: "",
@@ -31,7 +43,7 @@ describe("Submit feedback", () => {
         })).rejects.toThrow()
     })
 
-    // Test 3
+    // Test 4
     it('Should NOT be able to submit a feedback without comment', async () => {
         await expect(submitFeedback.execute({
             type: "BUG",
@@ -40,7 +52,7 @@ describe("Submit feedback", () => {
         })).rejects.toThrow()
     })
 
-    // Test 4
+    // Test 5
     it('Should NOT be able to submit a feedback with an invalid screenshot', async () => {
         await expect(submitFeedback.execute({
             type: "BUG",
