@@ -46,7 +46,7 @@
 <!---- THE PROJECT ---->
 ## About The Project
 
-<img src="https://user-images.githubusercontent.com/44311634/178410178-331c81f0-a70b-4dab-9c25-e85011989caa.png" align="center" align="center" alt="Project Home Page">
+<img src="https://user-images.githubusercontent.com/44311634/178412411-6088b1b5-7d99-4471-9e5a-bc89eb50996b.png" align="center" align="center" alt="Project Home Page">
 The feedback widget server to save the feedbacks in the database and send an email to the administrator notifying them of the new feedback. 
 
 
@@ -153,7 +153,7 @@ With the installation complete, we can start the project.
 
 
 <!---- JEST TESTS ----> 
-## Jest Tests
+## Jest tests
 
 Keep all tests always OK, for more information see `.\coverage\Icov-report\index.html`
 
