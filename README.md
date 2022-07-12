@@ -35,6 +35,7 @@
       </ul>
     </li>
     <li><a href="#usage"> Usage </a></li>
+    <li><a href="#jest-tests"> Jest Tests </a></li>
     <li><a href="#contributing"> Contributing </a></li>
     <li><a href="#license"> License </a></li>
     <li><a href="#contact"> Contact </a></li>
@@ -149,7 +150,21 @@ With the installation complete, we can start the project.
   ```
   npx prisma studio 
   ```
-<br/>
+
+
+<!---- JEST TESTS ----> 
+## Jest Tests
+
+To run the jest tests and validate that everything is ok with the application, for more information look `.\coverage\Icov-report\index.html`
+
+* Run tests  
+   ```cmd
+   npm run test
+   ```
+  <div align="center">
+    <img align="center" alt="print-jestTests" src="https://user-images.githubusercontent.com/44311634/178383698-fd675796-a2d0-4d86-b5ff-a014e1133ea4.jpg">
+  </div>
+  <br/> <br/> 
 
 
 <!---- CONTRIBUTING ---->
