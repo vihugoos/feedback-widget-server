@@ -46,7 +46,7 @@
 <!---- THE PROJECT ---->
 ## About The Project
 
-<img src="https://user-images.githubusercontent.com/44311634/178414132-b7333ec6-ea36-440b-902e-bf9240d73a0f.png" align="center" align="center" alt="Project Home Page">
+<img src="https://user-images.githubusercontent.com/44311634/178415044-3bf2bd16-14ca-4186-984e-33dbae925c3d.png" align="center" align="center" alt="Project Home Page">
 The feedback widget server to save the feedbacks in the database and send an email to the administrator notifying them of the new feedback. 
 
 
