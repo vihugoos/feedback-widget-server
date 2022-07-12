@@ -155,7 +155,7 @@ With the installation complete, we can start the project.
 <!---- JEST TESTS ----> 
 ## Jest Tests
 
-To validate that everything is OK, for more information see `.\coverage\Icov-report\index.html`
+To validate that everything is tested and OK, for more information see `.\coverage\Icov-report\index.html`
 
 * Run tests  
    ```cmd
