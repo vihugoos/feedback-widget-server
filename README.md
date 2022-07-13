@@ -46,7 +46,7 @@
 ## About The Project
 
 <img src="https://user-images.githubusercontent.com/44311634/178651138-54b1b11c-0776-48d0-8ec8-436671eeab48.png" align="center" align="center" alt="Project Home Page">
-The feedback widget server to save the feedbacks in the database and send an email to the administrator notifying them of the new feedback. 
+The Feedback Widget Server API to save the feedbacks in the database and send an email to the administrator for notification. 
 
 
 ### Built With 
