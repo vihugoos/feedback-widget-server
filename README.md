@@ -4,7 +4,7 @@
 <div align="center">
 
   <h2 align="center"> 
-    Feedback Widget - Server  
+    Feedback Widget - Server API
   </h2>
   
   <p align="center">
