@@ -1,4 +1,4 @@
-name: Execution of regression tests
+name: tests
 
 on:
   push:
