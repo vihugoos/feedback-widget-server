@@ -1,8 +1,8 @@
 <div id="top"> </div>
 
-[![Build Status](https://app.travis-ci.com/vihugoos/feedback-widget-server.svg?branch=main)](https://app.travis-ci.com/vihugoos/feedback-widget-server)
+[![tests](https://github.com/vihugoos/feedback-widget-server/actions/workflows/test.yml/badge.svg)](https://github.com/vihugoos/feedback-widget-server/actions/workflows/test.yml)
 [![Coverage Status](https://coveralls.io/repos/github/vihugoos/feedback-widget-server/badge.svg?branch=main)](https://coveralls.io/github/vihugoos/feedback-widget-server?branch=main)
-
+[![Build Status](https://app.travis-ci.com/vihugoos/feedback-widget-server.svg?branch=main)](https://app.travis-ci.com/vihugoos/feedback-widget-server)
 
 <!---- PROJECT LOGO ----> 
 <div align="center">
