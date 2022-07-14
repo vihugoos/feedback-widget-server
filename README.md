@@ -39,7 +39,7 @@
       </ul>
     </li>
     <li><a href="#usage"> Usage </a></li>
-    <li><a href="#jest-tests"> Jest Tests </a></li>
+    <li><a href="#tests"> Tests </a></li>
     <li><a href="#contributing"> Contributing </a></li>
     <li><a href="#contact"> Contact </a></li>
   </ol>
@@ -155,8 +155,8 @@ With the installation complete, we can start the project.
   ```
 
 
-<!---- JEST TESTS ----> 
-## Jest tests
+<!---- TESTS ----> 
+## Tests
 
 Keep all tests always with <strong>100% coverage</strong>, for more information see `.\coverage\Icov-report\index.html`
 
