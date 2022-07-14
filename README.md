@@ -158,16 +158,13 @@ With the installation complete, we can start the project.
 <!---- JEST TESTS ----> 
 ## Jest tests
 
-Keep all tests always OK, for more information see `.\coverage\Icov-report\index.html`
+Keep all tests always with <strong>100% coverage</strong>, for more information see `.\coverage\Icov-report\index.html`
 
 * Run tests  
    ```cmd
    npm run test
    ```
-  <div align="center">
-    <img align="center" alt="print-jestTests" src="https://user-images.githubusercontent.com/44311634/178385708-c3967348-a94d-4990-b46b-8c8680394d3f.jpg"/>
-  </div>
-  <br/> <br/> 
+  <br/>  
 
 
 <!---- CONTRIBUTING ---->
