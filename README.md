@@ -57,19 +57,19 @@ The Feedback Widget Server API to save the feedbacks in the database and send an
 
 <div style="display: inline_block">
     <!-- Icon Node.js --> 
-    <a href="https://nodejs.org/en/docs/"> 
+    <a href="https://nodejs.org/en/"> 
       <img align="center" alt="Icon-Node.js" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"> 
     </a> &nbsp;
     <!-- Icon TypeScript --> 
-    <a href="https://www.typescriptlang.org/docs/"> 
+    <a href="https://www.typescriptlang.org/"> 
       <img align="center" alt="Icon-TypeScript" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"> 
     </a> &nbsp;
     <!-- Icon Prisma -->
-    <a href="https://www.prisma.io/docs/"> 
+    <a href="https://www.prisma.io/"> 
       <img align="center" alt="Icon-Prisma" height="35" src="https://user-images.githubusercontent.com/44311634/178335052-08bb4b29-c4da-4100-ae71-8b65cf6cd581.png"> 
     </a> &nbsp;
     <!-- Icon Express --> 
-    <a href="https://expressjs.com/en/guide/routing.html"> 
+    <a href="https://expressjs.com/"> 
       <img align="center" alt="Icon-Express" height="35" src="https://user-images.githubusercontent.com/44311634/178337147-61b1e696-b4ef-4f78-8151-c3fb2597050a.png"> 
     </a> &nbsp;
     <!-- Icon Nodemailer 
